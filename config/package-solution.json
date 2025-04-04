@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ifc-document-viewer-client-side-solution",
+    "id": "ea43bb4c-9681-491d-8a0e-fb013fa8d229",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "IFCDocumentViewer description"
+      },
+      "longDescription": {
+        "default": "IFCDocumentViewer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ifc-document-viewer Feature",
+        "description": "The feature that activates elements of the ifc-document-viewer solution.",
+        "id": "7997519b-7f5d-480b-8d48-f2b98f73a3a9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ifc-document-viewer.sppkg"
+  }
+}
