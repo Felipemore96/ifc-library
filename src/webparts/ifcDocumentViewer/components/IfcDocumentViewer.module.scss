@@ -16,4 +16,9 @@
     background-color: #fed9cc;
     border-left: 4px solid #a80000;
   }
+
+  .documentsList {
+    max-height: 350px;
+    overflow-y: auto;
+  }
 }
